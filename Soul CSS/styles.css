@@ -1,0 +1,104 @@
+/* Flex styles -------------------------------------------------*/
+header {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (min-width: 700px) {
+   .leading {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  
+  /* Generic styles ----------------------------------------------*/
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  header {
+    font-family: 'Tangerine', cursive;
+    padding: 0px 10px 10px 0px;
+    font-size: 2em;
+    color: black;
+    background-color:#FFFFFF;
+    border-bottom: 1px solid black;
+  }
+  
+  .leading {
+    height: 590px;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: white;
+    background: url('../img/opt-hero.jpg') center #333 no-repeat;
+    background-size: cover;
+  }
+
+  .nav-bar-top {
+    height:10px;
+    width:100%;
+    background-color: #321911;
+    display:block;
+  }
+
+  .heading {
+    width:100%;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  a.name-menu {
+    color:black;
+    text-decoration: none;
+    width:100%;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  a.menu {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 0px 50px 0px 50px;
+    color: black;
+  }
+
+  a:hover.menu {
+    color: grey;
+}
+
+#menu {
+  display: none;
+}
+
+#menu-link {
+  display: none;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width : 1050px) {
+    #menu{
+      display: block;
+      padding-left: 10px;
+    }
+    #menu-link {
+      display: block;
+    }
+    .heading{
+      font-size: 50px;
+    }
+    .large-menu{
+      display: none;
+    }
+    a.menu{
+      padding: 0px;
+    }
+  }
